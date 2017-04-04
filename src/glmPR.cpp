@@ -1,4 +1,4 @@
-#include <Rcpp.h>
+// #include <Rcpp.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -6,8 +6,6 @@
 
 #include <RcppEigen.h>
 //[[Rcpp::depends(RcppEigen)]]
-
-
 
 // #include<DataStd.h>
 
