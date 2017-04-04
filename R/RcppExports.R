@@ -2,6 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 glmPR <- function(x_, y_, lambda_, rho_) {
-    .Call('glmPR_glmPR', PACKAGE = 'glmPR', x_, y_, lambda_, rho_)
+    .Call('mustbechecked_glmPR', PACKAGE = 'mustbechecked', x_, y_, lambda_, rho_)
+}
+
+rcpp_hello_world <- function() {
+    .Call('mustbechecked_rcpp_hello_world', PACKAGE = 'mustbechecked')
 }
 
