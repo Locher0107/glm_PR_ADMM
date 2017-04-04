@@ -2,8 +2,8 @@
 // Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #include <RcppEigen.h>
-//[[Rcpp::dependens(RcppEigen)]]
-#include <Rcpp.h>
+//[[Rcpp::depends(RcppEigen)]]
+//#include <Rcpp.h>
 
 using namespace Rcpp;
 using namespace RcppEigen;
