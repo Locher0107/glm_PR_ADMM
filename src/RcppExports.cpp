@@ -2,11 +2,9 @@
 // Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #include <RcppEigen.h>
-//[[Rcpp::depends(RcppEigen)]]
-//#include <Rcpp.h>
+#include <Rcpp.h>
 
 using namespace Rcpp;
-using namespace RcppEigen;
 
 // glmPR
 RcppExport SEXP glmPR(SEXP x_, SEXP y_, SEXP lambda_, SEXP rho_);

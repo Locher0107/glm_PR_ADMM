@@ -9,8 +9,9 @@
 
 // #include<DataStd.h>
 
-using namespace Rcpp;
 using namespace Eigen;
+using namespace Rcpp;
+using namespace std;
 
 using Eigen::MatrixXf;
 using Eigen::VectorXf;
